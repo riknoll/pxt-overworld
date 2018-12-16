@@ -7,11 +7,16 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "map.ts",
+        "event.ts",
+        "character.ts",
+        "saveState.ts",
+        "world.ts",
+        "assets.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
-    "additionalFilePaths": []
+    "public": false
 }
