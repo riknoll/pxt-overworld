@@ -62,6 +62,6 @@ namespace overworld {
          * 
          * @return True if the Event should trigger, false if it should not
          */
-        check(eventState: number, target: Character, state: SaveState, world: World): boolean;
+        check(target: Character, state: SaveState, world: World): boolean;
     }
 }

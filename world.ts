@@ -7,6 +7,9 @@ namespace overworld {
         characters: Character[];
         map: Map;
 
+        movementEvents: Event[];
+        interactionEvents: Event[];
+
         loadStage(stage: Stage) {
             this.map = stage.map;
         }
