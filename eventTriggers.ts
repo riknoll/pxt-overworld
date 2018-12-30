@@ -31,7 +31,7 @@ namespace overworld {
         row1: number;
         col1: number;
 
-        direction: FourDirection | EightDirection | 0;
+        direction: FourDirection | 0;
 
         constructor(r0: number, c0: number, r1: number, c1: number, direction = 0) {
             this.row0 = Math.min(r0, r1);
@@ -57,7 +57,7 @@ namespace overworld {
         row: number;
         column: number;
 
-        direction: FourDirection | EightDirection | 0;
+        direction: FourDirection | 0;
 
         constructor(row: number, column: number, direction = 0) {
             this.row = row;
